@@ -27,8 +27,8 @@ function reder() {
     } else{
     up[0].style.transform = "translate(0, -270px)"
     up[1].style.transform = "translate(0, -270px)"
-    up[0].style.opacity = "0"
-    up[1].style.opacity = "0"
+    setTimeout(()=>{up[0].style.opacity = "0"}, 200)
+    setTimeout(()=>{up[1].style.opacity = "0"}, 200)
     dn[0].style.transform = "translate(0, 20px)"
     dn[1].style.transform = "translate(0, 20px)"
     dn[2].style.transform = "translate(0, 20px)"
