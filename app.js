@@ -5,16 +5,24 @@ const img = document.querySelector('img')
 let open = false;
 
 svg.onclick = function () {
+    reder()
+}
+
+img.onclick = function(){
+    reder()
+}
+
+function reder() {
     if (open) {
-    up[0].style.opacity = "1"
-    up[1].style.opacity = "1"
-    up[0].style.transform = "translate(0, 0)"
-    up[1].style.transform = "translate(0, 0)"
+    setTimeout(()=>{up[0].style.opacity = "1"}, 300)
+    setTimeout(()=>{up[1].style.opacity = "1"}, 300)
+    setTimeout(()=>{up[0].style.transform = "translate(0, 0)"}, 300)
+    setTimeout(()=>{up[1].style.transform = "translate(0, 0)"}, 300)
     dn[0].style.transform = "translate(0, 0)"
     dn[1].style.transform = "translate(0, 0)"
     dn[2].style.transform = "translate(0, 0)"
-    img.style.translate = "0 -0"
     img.style.transform = "scale(1)"
+    setTimeout(()=>{img.style.translate = "0 -0"}, 100)
     open = false;
     } else{
     up[0].style.transform = "translate(0, -270px)"
