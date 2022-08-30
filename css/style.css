@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-color: #555;
+    color: #14e9c5;
+    text-align: center;
+    margin: 0;
+    font-family: 'Lobster', sans-serifs;
+    letter-spacing: 1px;
+}
+
+img {
+    transition: transform 0.5s ease-in-out, translate 0.3s ease-in-out;
+    position: absolute;
+    width: 50px;
+    top: 425px;
+    left: calc(50vw - 30px);
+    z-index: -1;
+}

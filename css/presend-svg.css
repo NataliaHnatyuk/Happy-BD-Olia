@@ -1,0 +1,16 @@
+.main-box {
+    fill: #555;
+    stroke:#14e5c8;
+    stroke-width:5;
+}
+
+.stripe {
+    z-index: 5;
+    fill: #14e5c8;
+    stroke: #14e5c8;
+    stroke-width: 5;
+}
+
+rect {
+    transition: transform 0.3s ease-in-out;
+}
