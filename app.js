@@ -14,8 +14,8 @@ img.onclick = function(){
 
 function reder() {
     if (open) {
-    setTimeout(()=>{up[0].style.opacity = "1"}, 300)
-    setTimeout(()=>{up[1].style.opacity = "1"}, 300)
+    up[0].style.opacity = "1"
+    up[1].style.opacity = "1"
     setTimeout(()=>{up[0].style.transform = "translate(0, 0)"}, 300)
     setTimeout(()=>{up[1].style.transform = "translate(0, 0)"}, 300)
     dn[0].style.transform = "translate(0, 0)"
